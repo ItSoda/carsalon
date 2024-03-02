@@ -199,6 +199,7 @@ CSRF_TRUSTED_ORIGINS = [
     "http://fohowomsk.ru",
     "https://fohowomsk.ru",
     "https://rest.nexmo.com",
+    "https://onlydev.fun"
 ]
 
 # CORS
@@ -207,6 +208,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://fohowomsk.ru",
     "https://rest.nexmo.com",
+    "https://onlydev.fun"
 ]
 
 CORS_ALLOW_METHODS = [
