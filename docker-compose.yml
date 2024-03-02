@@ -26,8 +26,8 @@ services:
       - docker-compose.env
     environment:
       - DOCKER_CONTAINER=True
-      - VIRTUAL_HOST=red-store.site
-      - LETSENCRYPT_HOST=red-store.site
+      - VIRTUAL_HOST=onlydev.fun
+      - LETSENCRYPT_HOST=onlydev.fun
     ports:
       - "8000:8000" 
     depends_on:
