@@ -40,6 +40,7 @@ class Car(models.Model):
     win_number = models.CharField(max_length=120)
     status = models.CharField(max_length=100, choices=STATUS_CHOICES, default=ACTIVE)
     photos = models.ManyToManyField(Image)
+    category = models.CharField(max_length=50)
 
     class Meta:
         verbose_name = "автомобиль"
